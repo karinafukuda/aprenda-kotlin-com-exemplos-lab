@@ -5,14 +5,14 @@ import model.EducationalContent
 import utils.Level
 
 object EducationalContentRepository{
-    private fun contentListOfCourse(): List<EducationalContent>{
+    fun contentListOfCourse(): List<EducationalContent>{
         return listOf(
-             EducationalContent("Princípios OO", 15L, Level.BASIC),
-             EducationalContent("Funções", 25L, Level.BASIC),
-             EducationalContent("Coroutines", 15L, Level.MEDIUM),
-             EducationalContent("Testes", 25L, Level.MEDIUM),
-             EducationalContent("Boas práticas", 25L, Level.ADVANCED),
-             EducationalContent("SOLID", 35L, Level.ADVANCED),
+             EducationalContent("Princípios OO", 15L, Level.INICIANTE),
+             EducationalContent("Funções", 25L, Level.INICIANTE),
+             EducationalContent("Coroutines", 15L, Level.INTERMEDIARIO),
+             EducationalContent("Testes", 25L, Level.INTERMEDIARIO),
+             EducationalContent("Boas práticas", 25L, Level.AVANÇADO),
+             EducationalContent("SOLID", 35L, Level.AVANÇADO),
         )
     }
 

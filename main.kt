@@ -16,10 +16,11 @@ fun main() {
 
     /**
      * Output:
-     * Aluno(a) Karina matriculado(a) na DIO com sucesso! A formação selecionada foi Bootcamp Kotlin
-     * Conteúdo [EducationalContent(course=Princípios OO, duration=15, level=BASIC), EducationalContent(course=Funções, duration=25, level=BASIC)]
-     * Aluno(a) Carlos matriculado(a) na DIO com sucesso! A formação selecionada foi Bootcamp Kotlin Avançado
-     * Conteúdo [EducationalContent(course=Boas práticas, duration=25, level=ADVANCED)]
-     * todo - Tratar os dados da lista de conteúdo
+     *   Aluno(a) Karina matriculado(a) na DIO com sucesso! A formação selecionada foi Bootcamp Kotlin
+     *   Conteúdo desta formação: Princípios OO duração de 15 minutos e dificuldade INICIANTE
+     *   Conteúdo desta formação: Funções duração de 25 minutos e dificuldade INICIANTE
+     *   Aluno(a) Carlos matriculado(a) na DIO com sucesso! A formação selecionada foi Bootcamp Kotlin Avançado
+     *   Conteúdo desta formação: Testes duração de 25 minutos e dificuldade INTERMEDIARIO
+     *   Conteúdo desta formação: Boas práticas duração de 25 minutos e dificuldade AVANÇADO
      */
 }

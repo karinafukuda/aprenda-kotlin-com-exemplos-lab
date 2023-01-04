@@ -14,6 +14,8 @@ class AcademicFormationRepository {
         subscribed.add(user)
         subscribedOnCourses.add(academicFormation)
         println("Aluno(a) ${user.name} matriculado(a) na DIO com sucesso! A formação selecionada foi ${academicFormation.nameOfFormation}")
-        println("Conteúdo ${academicFormation.contentsOfFormation}")
+        academicFormation.contentsOfFormation.forEach {
+            println("Conteúdo desta formação: ${it.course} duração de ${it.duration} minutos e dificuldade ${it.level}")
+        }
     }
 }

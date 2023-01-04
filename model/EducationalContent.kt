@@ -3,10 +3,7 @@ package model
 import utils.Level
 
 data class EducationalContent (
-    val course: String,
-    val duration: Long,
-    val level: Level
+    var course: String,
+    var duration: Long,
+    var level: Level
 )
-
-
-
