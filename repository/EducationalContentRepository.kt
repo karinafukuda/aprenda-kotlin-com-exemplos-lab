@@ -18,8 +18,8 @@ object EducationalContentRepository{
 
     fun academicFormationsList(): List<AcademicFormation>{
         return listOf(
-            AcademicFormation("Bootcamp Kotlin", contentListOfCourse().subList(0, 2)),
-            AcademicFormation("Bootcamp Kotlin Avançado", contentListOfCourse().subList(3, 5))
+            AcademicFormation("Bootcamp Kotlin", contentListOfCourse().subList(0, 3)),
+            AcademicFormation("Bootcamp Kotlin Avançado", contentListOfCourse().subList(3, 6))
         )
     }
 }
