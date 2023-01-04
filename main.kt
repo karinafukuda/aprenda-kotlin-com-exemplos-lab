@@ -12,7 +12,7 @@ fun main() {
     val academicFormationRepository = AcademicFormationRepository()
 
     academicFormationRepository.toSubscribedAndPrintIt(user01, formations.academicFormationsList()[0])
-    academicFormationRepository.toSubscribedAndPrintIt(user02,formations.academicFormationsList()[1])
+    academicFormationRepository.toSubscribedAndPrintIt(user02, formations.academicFormationsList()[1])
 
     /**
      * Output:
