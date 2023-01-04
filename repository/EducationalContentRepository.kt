@@ -5,7 +5,7 @@ import model.EducationalContent
 import utils.Level
 
 object EducationalContentRepository{
-    fun contentListOfCourse(): List<EducationalContent>{
+    private fun contentListOfCourse(): List<EducationalContent>{
         return listOf(
              EducationalContent("Princípios OO", 15L, Level.INICIANTE),
              EducationalContent("Funções", 25L, Level.INICIANTE),

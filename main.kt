@@ -17,10 +17,10 @@ fun main() {
     /**
      * Output:
      *   Aluno(a) Karina matriculado(a) na DIO com sucesso! A formação selecionada foi Bootcamp Kotlin
-     *   Conteúdo desta formação: Princípios OO duração de 15 minutos e dificuldade INICIANTE
-     *   Conteúdo desta formação: Funções duração de 25 minutos e dificuldade INICIANTE
+     *   Conteúdo 1 desta formação: Princípios OO duração de 15 minutos e dificuldade INICIANTE
+     *   Conteúdo 2 desta formação: Funções duração de 25 minutos e dificuldade INICIANTE
      *   Aluno(a) Carlos matriculado(a) na DIO com sucesso! A formação selecionada foi Bootcamp Kotlin Avançado
-     *   Conteúdo desta formação: Testes duração de 25 minutos e dificuldade INTERMEDIARIO
-     *   Conteúdo desta formação: Boas práticas duração de 25 minutos e dificuldade AVANÇADO
+     *   Conteúdo 1 desta formação: Testes duração de 25 minutos e dificuldade INTERMEDIARIO
+     *   Conteúdo 1 desta formação: Boas práticas duração de 25 minutos e dificuldade AVANÇADO
      */
 }
