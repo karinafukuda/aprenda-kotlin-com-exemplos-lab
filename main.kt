@@ -21,6 +21,6 @@ fun main() {
      *   Conteúdo 2 desta formação: Funções duração de 25 minutos e dificuldade INICIANTE
      *   Aluno(a) Carlos matriculado(a) na DIO com sucesso! A formação selecionada foi Bootcamp Kotlin Avançado
      *   Conteúdo 1 desta formação: Testes duração de 25 minutos e dificuldade INTERMEDIARIO
-     *   Conteúdo 1 desta formação: Boas práticas duração de 25 minutos e dificuldade AVANÇADO
+     *   Conteúdo 2 desta formação: Boas práticas duração de 25 minutos e dificuldade AVANÇADO
      */
 }
